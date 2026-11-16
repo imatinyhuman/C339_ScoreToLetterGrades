@@ -1,0 +1,18 @@
+
+name: Jolin 
+
+on: push
+
+jobs:
+  student-info:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: C339 Software Testing and Analytics
+        run: echo "Display Student - Jolin"
+
+      - name: Display Module
+        run: echo "Display Module - C339 Software Testing and Analytics."
+
+      - name: Display Message
+        run: echo "Display My GitHub Actions workflow is running automatically."
